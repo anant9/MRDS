@@ -1,5 +1,5 @@
 import streamlit as st
-from main import run_mrds
+from MRDS.main import run_mrds
 import pandas as pd
 
 st.title("📊 MRDS - Market Research Data Synthesizer")
