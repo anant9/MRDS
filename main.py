@@ -1,3 +1,11 @@
+# Patch sqlite3 to use pysqlite3 (for ChromaDB)
+try:
+    import pysqlite3
+    import sys
+    sys.modules["sqlite3"] = sys.modules.pop("pysqlite3")
+except ImportError:
+    pass
+    
 from agents.data_agent import DataAgent
 from agents.cleaner_agent import CleanerAgent
 from agents.analyzer_agent import AnalyzerAgent
