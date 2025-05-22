@@ -1,0 +1,10 @@
+crewai
+openai
+pandas
+transformers
+langdetect
+deep_translator
+snscrape
+streamlit
+google-search-results
+
