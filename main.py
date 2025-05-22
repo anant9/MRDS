@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from agents.data_agent import DataAgent
 from agents.cleaner_agent import CleanerAgent
 from agents.analyzer_agent import AnalyzerAgent
